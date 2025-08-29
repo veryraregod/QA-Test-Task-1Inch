@@ -1,0 +1,29 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Custom field (Development),Custom field (Issue color),Custom field (Rank),Sprint,Custom field (Start date),Custom field (Story point estimate),Custom field (Team),Custom field (Vulnerability),Status Category,Status Category Changed
+Incorrect validation: button remains active when value is zero.,QATT-3,10014,Bug,To Do,QATT,QATT,software,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,,Medium,,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,29/Aug/25 6:32 AM,29/Aug/25 6:32 AM,29/Aug/25 6:49 AM,,28/Aug/25 12:00 AM,0,"STR:
+
+# Open Page limit orders [https://app.1inch.io/advanced/limit?network=1&src=WETH&dst=USDC|https://app.1inch.io/advanced/limit?network=1&src=WETH&dst=USDC|smart-link] 
+# Connect *Metamask* Wallet.
+# In the “*You pay*” field, Enter “{{0}}” as the amount.
+# Check the state of the *Review Order* button.
+# Close the authorization QR code window.
+
+Result: The *Review Order* button is *active*, even though the entered amount is {{0}}.
+
+Expected result: The *Review Order* button should remain *disabled* when the entered amount is {{0}}.",,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,,,,,,,,,,,,,0|i0002n:,QATT Sprint 1,,,,,To Do,29/Aug/25 6:32 AM
+Opening the swap page instead of the limit page via the link,QATT-2,10013,Bug,To Do,QATT,QATT,software,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,,Medium,,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,28/Aug/25 4:25 PM,29/Aug/25 6:34 AM,29/Aug/25 6:45 AM,,28/Aug/25 12:00 AM,0,"STR:
+
+# Open the limit orders page via the link [https://app.1inch.io/#/1/advanced/limit-order/1|https://app.1inch.io/#/1/advanced/limit-order/1|smart-link] 
+
+Result: Opening the swap page instead of the limit page via the link.
+
+Expected result: Opening page limit orders.",,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,,,,,,,,,28/Aug/25 4:25 PM;09a148be-b697-4ec4-8271-d82d5d8a1a3d;image-20250828-112539.png;https://qaengineer256.atlassian.net/rest/api/3/attachment/content/10007,28/Aug/25 4:25 PM;09a148be-b697-4ec4-8271-d82d5d8a1a3d;image-20250828-112600.png;https://qaengineer256.atlassian.net/rest/api/3/attachment/content/10008,,,0|i0002r:,QATT Sprint 1,,,,,To Do,28/Aug/25 4:25 PM
+Limit orders: Reopening the QR code after canceling wallet authorization in limit orders,QATT-1,10012,Bug,To Do,QATT,QATT,software,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,,Medium,,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,28/Aug/25 4:11 PM,29/Aug/25 6:34 AM,29/Aug/25 6:11 AM,,04/Sep/25 12:00 AM,0,"STR: 
+
+# Open Page limit orders [https://app.1inch.io/#/1/advanced/limit-order/1|https://app.1inch.io/#/1/advanced/limit-order/1|smart-link] 
+# Click on the wallet connection button on the limit orders page.
+# From the list of wallets, click on 1inch wallet.
+# Close the authorization QR code window
+
+Result: Reopening the QR code after canceling wallet authorization in limit orders.
+
+Expected result: Displaying the limit orders page.",,QA,712020:6e6d3863-c317-4467-983e-6c80bb57b9f5,,,,,,,,,28/Aug/25 4:11 PM;09a148be-b697-4ec4-8271-d82d5d8a1a3d;Запись экрана 2025-08-25 в 02.09.21.mov;https://qaengineer256.atlassian.net/rest/api/3/attachment/content/10004,,,,0|i0002v:,QATT Sprint 1,,,,,To Do,28/Aug/25 4:11 PM
